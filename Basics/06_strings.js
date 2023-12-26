@@ -17,23 +17,25 @@ const gameName = new String('hitesh-hc-com')
 // console.log(gameName.indexOf('t'));
 
 const newString = gameName.substring(2, 4)
-console.log(newString);
+// console.log(newString);
 
 const anotherString = gameName.slice(-8, 4)
-console.log(anotherString);
+// console.log(anotherString);
 
 const newStringOne = "   hitesh    "
-console.log(newStringOne);
-console.log(newStringOne.trim());
-console.log(newStringOne.trimStart()); // only works on starting spaces
-console.log(newStringOne.trimEnd());   // similarly on ending spaces only
+// console.log(newStringOne);
+// console.log(newStringOne.trim());
+// console.log(newStringOne.trimStart()); // only works on starting spaces
+// console.log(newStringOne.trimEnd());   // similarly on ending spaces only
 
 
 
 const url = "https://hitesh.com/hitesh%20choudhary"
 
-console.log(url.replace('%20', '-'))
+// console.log(url.replace('%20', '-'))
 
-console.log(url.includes('sundar'))
+// console.log(url.includes('sundar'))
 
-console.log(gameName.split('-'));
+// console.log(gameName.split('-'));
+
+console.log(typeof gameName);
